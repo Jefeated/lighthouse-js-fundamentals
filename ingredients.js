@@ -1,0 +1,14 @@
+var ingredients = ["eggs", "milk", "flour", "sugar", "baking soda", "baking powder", "chocolate chips", "bananas"];
+
+while (var i < ingredients.length){
+  console.log(ingredients[i]);
+  i++;
+}
+
+for (var i = 0; i < ingredients.length; i++){
+  console.log(ingredients[i]);
+}
+
+for (var i = 7; i < ingredients.length; i--){
+  console.log(ingredients[i]);
+}
